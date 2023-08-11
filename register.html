@@ -1,0 +1,114 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>register</title>
+   
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+   
+
+<header class="header">
+
+
+    <section class="flex">
+
+        <a href="index.html" class="logo">2H<span>.</span></a>
+  
+        <nav class="navbar">
+           <a href="index.html">Trang Chủ</a>
+           <a href="index.html#album">Bộ sưu tập</a>
+           <a href="#">Đơn Hàng</a>
+           <a href="#">Liên Hệ</a>
+        </nav>
+  
+        <div class="icons">
+                    <div id="menu-btn" class="fas fa-bars"></div>
+           <a href="#"><i class="fas fa-search"></i></a>
+           <a href="#"><i class="fas fa-heart"></i><span>(0)</span></a>
+           <a href="#"><i class="fas fa-shopping-cart"></i><span>(0)</span></a>
+           <div id="user-btn" class="fas fa-user"></div>
+        </div>
+  
+        <div class="profile">
+           <div class="flex-btn">
+              <a href="register.html" class="option-btn">Đăng Kí</a>
+              <a href="#" class="option-btn">Đăng Nhập</a>
+           </div>
+                 
+           
+           
+        </div>
+  
+     </section>
+ 
+
+</header>
+<section class="form-container">
+
+   <form action="" method="post">
+      <h3>Đăng Ký Ngay</h3>
+      <input type="text" name="name" required placeholder="Nhập Tên Người Dùng..." maxlength="20"  class="box">
+      <input type="email" name="email" required placeholder="Nhập Email..." maxlength="50"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="password" name="pass" required placeholder="Nhập Mật Khẩu" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="password" name="cpass" required placeholder="Xác Nhận Mật Khẩu..." maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="submit" value="Đăng Ký Ngay" class="btn" name="submit">
+   </form>
+
+</section>
+
+
+
+<footer class="footer">
+
+    <section class="grid">
+ 
+       <div class="box">
+          <h3>quick links</h3>
+          <a href="index.html"> <i class="fas fa-angle-right"></i>Trang Chủ</a>
+          <a href="index.html#album"> <i class="fas fa-angle-right"></i>Bộ sưu tập</a>
+          <a href="shop.html"> <i class="fas fa-angle-right"></i>Giỏ hàng</a>
+          <a href="#"> <i class="fas fa-angle-right"></i>Liên Hệ</a>
+       </div>
+ 
+       <div class="box">
+          <h3>extra links</h3>
+          <a href="#"> <i class="fas fa-angle-right"></i>Đăng Nhập</a>
+          <a href="register.html"> <i class="fas fa-angle-right"></i>Đăng Kí</a>
+          <a href="#"> <i class="fas fa-angle-right"></i>Đơn hàng</a>
+          <a href="#"> <i class="fas fa-angle-right"></i>Đơn Hàng</a>
+       </div>
+ 
+       <div class="box">
+          <h3>contact us</h3>
+          <a href="tel:0773322152"><i class="fas fa-phone"></i>0773322152</a>
+          <a href="tel:0795718425"><i class="fas fa-phone"></i>0795718425</a>
+          <a href="mailto:2051120179@ut.edu.vn"><i class="fas fa-envelope"></i>2051120179@ut.edu.vn</a>
+  </div>
+ 
+       <div class="box">
+          <h3>follow us</h3>
+          <a href="#"><i class="fab fa-facebook-f"></i>facebook</a>
+          <a href="#"><i class="fab fa-twitter"></i>twitter</a>
+          <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+          <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
+       </div>
+ 
+    </section>
+ 
+    <div class="credit">&copy; LTWEB - 2023</div>
+ 
+ </footer>
+
+</body>
+</html>
